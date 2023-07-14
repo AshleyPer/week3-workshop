@@ -1,0 +1,48 @@
+#loginpage{
+    width:20em;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#page{
+    background-color: #efefef;
+    max-width:75em;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1em;
+}
+
+form input, form label{
+    display:block;
+}
+
+form input{
+    margin-bottom:1em;
+    padding:0.5em;
+}
+
+#successmsg{
+    background-color:green;
+    margin-top:20px;
+    padding:1em;
+}
+
+#errormsg{
+    background-color: red;
+    margin-top:20px;
+    padding:1em;
+}
+
+.hidemessage{
+    display:none;
+}
+
+.showmessage{
+    display:block;
+}
+
+/* Account page styles */
+#account-image{
+    width: 250px;
+    height:auto;
+}
