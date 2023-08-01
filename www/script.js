@@ -20,6 +20,7 @@ function ajaxPost(){
         dataType : "json",
         success : function(customer){
             if(customer.valid == true){
+                $("#successmsg").html('Successfully Logged In!')
                 $("#errormsg").removeClass("showmessage");
                 $("#errormsg").addClass("hidemessage");
                 $("#successmsg").removeClass("hidemessage");
