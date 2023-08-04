@@ -46,3 +46,11 @@ form input{
     width: 250px;
     height:auto;
 }
+
+#accountatag{
+    color:white;
+}
+
+#accountatag:hover{
+    color:rgb(29, 211, 243);
+}

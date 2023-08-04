@@ -25,7 +25,7 @@ function ajaxPost(){
                 $("#errormsg").addClass("hidemessage");
                 $("#successmsg").removeClass("hidemessage");
                 $("#successmsg").addClass("showmessage");
-                $("#successmsg").append(`<p><br>Email Address: ${customer.email}</br>Password: ${customer.upwd}</br></p>`)
+                $("#successmsg").append(`<p><br>Email Address: ${customer.email}</br>Password: ${customer.upwd}</br></p><a href="/account" id="accountatag">Account Page</a>`)
             }else{
                 $("#errormsg").removeClass("hidemessage");
                 $("#errormsg").addClass("showmessage");
